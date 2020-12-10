@@ -1,0 +1,11 @@
+[ {
+  "uid" : "349d1f9186cde240",
+  "name" : "TC-001 Title is correct ",
+  "time" : {
+    "start" : 1607569217924,
+    "stop" : 1607569224184,
+    "duration" : 6260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

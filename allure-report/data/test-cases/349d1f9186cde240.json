@@ -1,0 +1,110 @@
+{
+  "uid" : "349d1f9186cde240",
+  "name" : "TC-001 Title is correct ",
+  "fullName" : "My Little Hero: Getting to the page.TC-001 Title is correct ",
+  "historyId" : "f7192e7fa548817d747f8e23654711d3",
+  "time" : {
+    "start" : 1607569217924,
+    "stop" : 1607569224184,
+    "duration" : 6260
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1607569217942,
+        "stop" : 1607569222163,
+        "duration" : 4221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d7a689381c2aaa0",
+        "name" : "Request",
+        "source" : "6d7a689381c2aaa0.json",
+        "type" : "application/json",
+        "size" : 44
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "getTitle",
+      "time" : {
+        "start" : 1607569222170,
+        "stop" : 1607569222177,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "efd50d9fc3b26935",
+        "name" : "Response",
+        "source" : "efd50d9fc3b26935.json",
+        "type" : "application/json",
+        "size" : 14
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Little Hero: Getting to the page"
+  }, {
+    "name" : "testClass",
+    "value" : "My Little Hero: Getting to the page"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-001 Title is correct "
+  }, {
+    "name" : "package",
+    "value" : "My Little Hero: Getting to the page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "349d1f9186cde240.json",
+  "parameterValues" : [ "Chrome-87.0.4280.88" ]
+}

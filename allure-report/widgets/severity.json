@@ -1,10 +1,10 @@
 [ {
-  "uid" : "349d1f9186cde240",
+  "uid" : "32523c926fd1b0aa",
   "name" : "TC-001 Title is correct ",
   "time" : {
-    "start" : 1607569217924,
-    "stop" : 1607569224184,
-    "duration" : 6260
+    "start" : 1607627009575,
+    "stop" : 1607627015384,
+    "duration" : 5809
   },
   "status" : "passed",
   "severity" : "normal"

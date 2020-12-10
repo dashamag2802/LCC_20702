@@ -21,12 +21,14 @@
     "@wdio/sync": "^6.10.4",
     "chromedriver": "^87.0.2",
     "selenium-standalone": "^6.23.0",
-    "wdio-chromedriver-service": "^6.0.4"
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-cli": "^5.0.0-alpha.7"
   },
   "dependencies": {
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
-    "@babel/register": "^7.12.1"
+    "@babel/register": "^7.12.1",
+    "allure-commandline": "^2.13.0"
   }
 }

@@ -1,4 +1,4 @@
-describe('My Little Hero', function () {
+describe('Local Coding', function () {
 
     describe('Getting to the page', function () {
 

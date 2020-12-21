@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "3d5ffa652cb460a9fd0e06156410dbed",
-    "name" : "My Little Hero: Getting to the page",
+    "uid" : "63155dd2b388e2624de6aa5214e7dcd3",
+    "name" : "Regression tests for the Cards page: LCC-TC-002 Validate that Cards page has a Local Coding link and if clicked, it will take a user to Main pager",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     }
   } ]
 }

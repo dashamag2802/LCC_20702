@@ -1,3 +1,8 @@
 {
-
+  "emailStudent": "#normal_login_email",
+  "passwordStudent": "#normal_login_password",
+  "loginButton": ".login-form-button",
+  "cardsLinkMainPage": "//a[@href='/flash']",
+  "cardsLinkCardsPage": "//a[@href='/flash']/../../div[@class='item active']",
+  "localCodingLink": "//div[@class='container']//*[@class='site-name']"
 }

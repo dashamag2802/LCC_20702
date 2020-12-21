@@ -1,22 +1,61 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "My Little Hero: Getting to the page",
+    "name" : "Regression tests for the Cards page: LCC-TC-002 Validate that Cards page has a Local Coding link and if clicked, it will take a user to Main pager",
     "children" : [ {
-      "name" : "TC-001 Title is correct ",
-      "uid" : "349d1f9186cde240",
-      "parentUid" : "4f40747a4c6076a0b0bbaf02a78748b1",
+      "name" : "LCC-002 Validate that Local Coding link exists on the Cards page",
+      "uid" : "509ed693aa4e58e3",
+      "parentUid" : "3dc8707a39c96d6f6f33067765f6d79f",
       "status" : "passed",
       "time" : {
-        "start" : 1607569217924,
-        "stop" : 1607569224184,
-        "duration" : 6260
+        "start" : 1608577749489,
+        "stop" : 1608577756145,
+        "duration" : 6656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-87.0.4280.88" ]
+    }, {
+      "name" : "LCC-003 Validate that Local Coding link has a text \"Local Coding\"",
+      "uid" : "7712a6773237dc31",
+      "parentUid" : "3dc8707a39c96d6f6f33067765f6d79f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608577756147,
+        "stop" : 1608577756191,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-87.0.4280.88" ]
+    }, {
+      "name" : "LCC-004 Validate that Local Coding link is clickable",
+      "uid" : "2175068df8910206",
+      "parentUid" : "3dc8707a39c96d6f6f33067765f6d79f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608577756191,
+        "stop" : 1608577756241,
+        "duration" : 50
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-87.0.4280.88" ]
+    }, {
+      "name" : "LCC-005 Validate than when click on the Local Coding link user will be redirected to the Main page",
+      "uid" : "e604b872020a4442",
+      "parentUid" : "3dc8707a39c96d6f6f33067765f6d79f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608577756242,
+        "stop" : 1608577756658,
+        "duration" : 416
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-87.0.4280.88" ]
     } ],
-    "uid" : "4f40747a4c6076a0b0bbaf02a78748b1"
+    "uid" : "3dc8707a39c96d6f6f33067765f6d79f"
   } ],
   "name" : "packages"
 }

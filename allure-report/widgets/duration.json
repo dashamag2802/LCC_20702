@@ -1,10 +1,40 @@
 [ {
-  "uid" : "349d1f9186cde240",
-  "name" : "TC-001 Title is correct ",
+  "uid" : "7712a6773237dc31",
+  "name" : "LCC-003 Validate that Local Coding link has a text \"Local Coding\"",
   "time" : {
-    "start" : 1607569217924,
-    "stop" : 1607569224184,
-    "duration" : 6260
+    "start" : 1608577756147,
+    "stop" : 1608577756191,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "509ed693aa4e58e3",
+  "name" : "LCC-002 Validate that Local Coding link exists on the Cards page",
+  "time" : {
+    "start" : 1608577749489,
+    "stop" : 1608577756145,
+    "duration" : 6656
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2175068df8910206",
+  "name" : "LCC-004 Validate that Local Coding link is clickable",
+  "time" : {
+    "start" : 1608577756191,
+    "stop" : 1608577756241,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e604b872020a4442",
+  "name" : "LCC-005 Validate than when click on the Local Coding link user will be redirected to the Main page",
+  "time" : {
+    "start" : 1608577756242,
+    "stop" : 1608577756658,
+    "duration" : 416
   },
   "status" : "passed",
   "severity" : "normal"

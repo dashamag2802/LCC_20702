@@ -17,7 +17,8 @@ exports.config = {
     // directory is where your additionalData.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/*.js'
+        //'./test/ui_test/smoke/cards_page/*.js',
+        './test/ui_test/regression/cards_page/*.js',
     ],
     // Patterns to exclude.
     exclude: [
@@ -128,7 +129,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec', 'dot',['allure', {outputDir: 'allure-results'}]],
+    reporters: ['spec', 'dot', ['allure', {outputDir: 'allure-results'}]],
 
     //
     // Options to be passed to Mocha.
